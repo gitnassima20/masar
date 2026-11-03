@@ -1,0 +1,27 @@
+{
+  "specversion": "1.0",
+  "type": "google.cloud.storage.object.v1.finalized",
+  "source": "//storage.googleapis.com/projects/_/buckets/doc-pipeline-raw-documents-my-project",
+  "id": "1234567890abcdef",
+  "time": "2026-11-03T10:00:00Z",
+  "datacontenttype": "application/json",
+  "data": {
+    "bucket": "doc-pipeline-raw-documents-my-project",
+    "contentType": "text/plain",
+    "crc32c": "xyz==",
+    "etag": "CPi0...",
+    "generation": "1730628000123456",
+    "id": "doc-pipeline-raw-documents-my-project/sample_contract.txt/1730628000123456",
+    "kind": "storage#object",
+    "md5Hash": "kjsdf==",
+    "mediaLink": "https://storage.googleapis.com/download/storage/v1/b/...",
+    "metageneration": "1",
+    "name": "contracts/sample_contract.txt",
+    "selfLink": "https://www.googleapis.com/storage/v1/b/...",
+    "size": "512",
+    "storageClass": "STANDARD",
+    "timeCreated": "2026-11-03T10:00:00.000Z",
+    "timeStorageClassUpdated": "2026-11-03T10:00:00.000Z",
+    "updated": "2026-11-03T10:00:00.000Z"
+  }
+}

@@ -1,0 +1,13 @@
+services:
+  document-processor:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - GCP_PROJECT=local-dev-project
+      - BQ_DATASET_ID=document_processing
+      - BQ_TABLE_ID=document_metadata
+      - DLQ_BUCKET_NAME=local-dlq-bucket
+      - LOG_LEVEL=DEBUG
